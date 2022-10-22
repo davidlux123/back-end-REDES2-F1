@@ -1,0 +1,10 @@
+###
+GET http://localhost:3000 
+###
+GET http://localhost:3000/administradores
+###
+GET http://localhost:3000/desarrolladores 
+###
+GET http://localhost:3000/estadisticas 
+###
+GET http://localhost:3000/funciones 
