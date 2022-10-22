@@ -12,7 +12,6 @@ const administradorSchema = mongoose.Schema({
 const administradores = mongoose.model("administradores", administradorSchema);
 
 const getAll =  (req, res) => {
-    console.log('entrooooo');
     administradores.find()
                         .then((data) => res.status(200).json(data))
                         .catch((error) => res.status(500).json({ message: error }));
